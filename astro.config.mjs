@@ -7,5 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+  site: "https://github.com/Dalup-213.github.io",
+  base: "/Vacunacion",
 });
